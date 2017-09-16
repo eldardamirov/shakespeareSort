@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		864510051F683FB30010AE64 /* output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = output.txt; path = "../../../../Library/Developer/Xcode/DerivedData/oneginSortThreadEdition-clyjpouneabejgfdfwwdgufrkryr/Build/Products/Debug/output.txt"; sourceTree = "<group>"; };
+		864510061F683FB30010AE64 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = input.txt; path = "../../../../Library/Developer/Xcode/DerivedData/oneginSortThreadEdition-clyjpouneabejgfdfwwdgufrkryr/Build/Products/Debug/input.txt"; sourceTree = "<group>"; };
 		86BB5F3C1F683DDB002C0211 /* oneginSortThreadEdition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oneginSortThreadEdition; sourceTree = BUILT_PRODUCTS_DIR; };
 		86BB5F3F1F683DDB002C0211 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				86BB5F3F1F683DDB002C0211 /* main.cpp */,
+				864510051F683FB30010AE64 /* output.txt */,
+				864510061F683FB30010AE64 /* input.txt */,
 			);
 			path = oneginSortThreadEdition;
 			sourceTree = "<group>";
@@ -220,6 +224,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AUWER2S3N2;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -228,6 +233,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AUWER2S3N2;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -251,6 +257,7 @@
 				86BB5F451F683DDB002C0211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
